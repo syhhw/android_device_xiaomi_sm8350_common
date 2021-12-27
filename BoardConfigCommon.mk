@@ -112,6 +112,9 @@ DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE := \
     vendor/aosp/config/device_framework_matrix.xml
 DEVICE_MANIFEST_FILE := $(COMMON_PATH)/manifest.xml
 
+# HWUI
+HWUI_COMPILE_FOR_PERF := true
+
 # Media
 TARGET_USES_ION := true
 
