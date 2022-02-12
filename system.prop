@@ -19,6 +19,10 @@ ro.media.recorder-max-base-layer-fps=60
 # Netflix
 ro.netflix.bsp_rev=Q875-32408-1
 
+# SoC
+ro.soc.manufacturer=QTI
+ro.soc.model=SM7325
+
 # QC framework value-adds
 ro.vendor.qti.va_aosp.support=1
 
