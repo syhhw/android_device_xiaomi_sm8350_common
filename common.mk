@@ -137,6 +137,11 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES_DEBUG += \
     bootctl
 
+# Cacert
+PRODUCT_PACKAGES += \
+    vendor.qti.hardware.cacert@1.0 \
+    vendor.qti.hardware.cacert@1.0.vendor
+
 # Camera
 PRODUCT_PACKAGES += \
     android.hardware.camera.provider@2.4-impl \
