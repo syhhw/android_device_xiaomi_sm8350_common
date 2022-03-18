@@ -108,8 +108,7 @@ BOARD_KERNEL_CMDLINE += video=vfb:640x400,bpp=32,memsize=3072000
 # HIDL
 DEVICE_MATRIX_FILE := $(COMMON_PATH)/compatibility_matrix.xml
 DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE := \
-    $(COMMON_PATH)/device_framework_matrix.xml \
-    vendor/aosp/config/device_framework_matrix.xml
+    $(COMMON_PATH)/device_framework_matrix.xml 
 DEVICE_MANIFEST_FILE := $(COMMON_PATH)/manifest.xml
 
 # HWUI
